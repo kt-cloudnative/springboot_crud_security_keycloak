@@ -36,6 +36,8 @@ management:
   endpoints:
     health:
       show-details: always
+      probes:
+        enabled: true  
     loggers:
       enabled: true
     prometheus:
@@ -44,7 +46,6 @@ management:
       exposure:
         include: health,prometheus,loggers,metrics,caches,beans
 #        include: "*"
-
 
 # app
 app-info:
