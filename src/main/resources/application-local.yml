@@ -36,9 +36,8 @@ management:
   endpoints:
     health:
       show-details: always
-      enabled: true
     loggers:
-      enabled: true  
+      enabled: true
     prometheus:
       enabled: true
     web:
